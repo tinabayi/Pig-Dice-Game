@@ -10,26 +10,49 @@
 </head>
 <body>
   <h1 id="title">Pig Dice Game</h1>
-  <div id="container">
+  <div class="container">
+  <div class="row">
+    <div class="player-col col-md-4">
+      <h1>PLAYER 1</h1>
+      
+      <div id="player-one-buttons">
+          <button type="submit" class="btn" name="button" id="player-one-roll">ROLL DICE</button>
+          <button type="submit" class="btn" name="button" id="player-one-stay">HOLD</button>
+        </div>
+        
+        <h3>Turn Running Total</h3>
+        <div id="player-one-running">
+        </div>
+        <h3>Total Score:</h3>
+        <h4><span id="player-one-score"></span></h4>
+      
+       </div>
+       <div class="col-md-4">
 
+          <div id="dice-image">
+              <img src="img/pig.png" id="dice-pic">
+            </div>
+            <p><span class="player-one-rolls-one">You rolled a 1!</p>
+            <p><span class="player-one-rolls-one">Your turn is over.</p></span>
+            <!-- <p><span class="turn-total"></p> -->
+            <div id="winner">
+            </div><!--Winner closes-->
+           </div> <div class="player-col col-md-4">
+              <h2>Player 2</h2>
+              
+              <div id="player-two-buttons">
+                <button type="submit" class="btn" name="button" id="player-two-roll">Roll DICE</button>
+                <button type="submit" class="btn" name="button" id="player-two-stay">HOLD</button>
+              </div>
+              <h3>Turn Running Total</h3>
+              <div id="player-two-running">
+              </div>
+              <h3>Total Score:</h3>
+              <h4><span id="player-two-score"></span></h4>
+            </div><!--Col closes-->
 
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  </div>
+        </div>
+      </div>
     
       
 </body>
