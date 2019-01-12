@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #dadada;
+    background-color: #ce8282;
   }
   
   img {
@@ -13,7 +13,7 @@ body {
   }
   
   #title {
-    font-size: 72px;
+    font-size: 50px;
   }
   
   h2 {
@@ -25,11 +25,11 @@ body {
   }
   
   .container {
-    margin-top: 2%;
+    margin-top: 8%;
   }
   
   .running-total {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto" sans-serif;
   }
   
   .total-score {
@@ -38,32 +38,34 @@ body {
   }
   
   .player-one-rolls-one {
-    font-size: 36px;
+    font-size: 40px;
     font-family: 'Erica One', sans-serif;
     text-align: center;
     display: none;
+   background-color:red;
   }
   
   .player-col {
     border: 10px solid black;
-    border-radius: 6px;
+    border-radius: 8px;
     height: 450px;
     background: white;
   }
   
   .btn {
-    height: 60px;
-    width: 100px;
+    height: 80px;
+    width: 120px;
     font-size: 18px;
     font-weight: bold;
     margin: 10px;
-    color: #fff;
+    color: rgb(13, 25, 95);
+    background-color: blueviolet
   }
   
   #winner {
     display: none;
     font-family: 'Erica One';
-    font-size: 72px;
+    font-size: 70px;
   }
   
   #player-two-buttons {
