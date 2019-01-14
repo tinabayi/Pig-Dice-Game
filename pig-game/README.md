@@ -1,2 +1,0 @@
-# Pig dice game
-### Description
