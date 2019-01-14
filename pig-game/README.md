@@ -14,3 +14,24 @@ If aplayer chooses to hold their turn total is added to their score,
 and it becomes the next player's turn.
 The first player to score 100 or more points Wins
 ~~~
+### Author
+~~~
+Christine BAYIZERE
+~~~
+### Technology used
+~~~
+.HTML
+.css
+.Javascript
+.Jquery
+.Bootstrap
+~~~
+### Setup installation instruction
+~~~
+.have Visual Studio Code software
+.have internet connection
+.then go on my link repository on the link
+.go on Pig-game repository  and write code .
+~~~
+### lisence information
+~~~
