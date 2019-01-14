@@ -15,6 +15,10 @@ body {
   #title {
     font-size: 50px;
   }
+  .parag{
+    font-family: sans-serif;
+    font-size: 20px;
+  }
   
   h2 {
     font-family: 'Erica One', sans-serif;
